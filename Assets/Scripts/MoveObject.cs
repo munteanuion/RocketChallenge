@@ -9,7 +9,7 @@ public class MoveObject : MonoBehaviour
 
     void Start()
     {
-        _startPosition = transform.position;
+        _startPosition = transform.position; 
     }
     
     void Update()
