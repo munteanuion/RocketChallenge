@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f9bbbdca6c5eafb4f97410eac60ab817
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _energy: {instanceID: 0}
+  - _flySound: {fileID: 8300000, guid: a36dc3eab80480d4081baad9051b12c4, type: 3}
+  - _finishSound: {fileID: 8300000, guid: 571ae82d1de587c4d8bdb7e0a75e65b7, type: 3}
+  - _boomSound: {fileID: 8300000, guid: fa32809ded68fd74d9bb0d67d86999f7, type: 3}
+  - _boomParticle: {instanceID: 0}
+  - _finishParticle: {fileID: 198631066050499358, guid: 62198a3a5dbb64a4f9e1618929224faa, type: 3}
+  - _flyParticle: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
