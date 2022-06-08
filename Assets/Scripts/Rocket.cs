@@ -34,7 +34,7 @@ public class Rocket : MonoBehaviour
         state = State.Playing;
         mode = Mode.Simple;
         _energy.text = _energyTotal.ToString();
-        _functionsUI.DisableCursor();
+        //_functionsUI.DisableCursor();
     }
 
     void Update()

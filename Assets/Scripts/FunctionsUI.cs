@@ -6,6 +6,7 @@ public class FunctionsUI : MonoBehaviour
     [SerializeField] private GameObject _losePanel;
     [SerializeField] private GameObject _winPanel;
     [SerializeField] private GameObject _pausePanel;
+    [SerializeField] private GameObject _gameplayPanel;
     
     private void Update()
     {
@@ -34,32 +35,46 @@ public class FunctionsUI : MonoBehaviour
     public void EnableLosePanel()
     {
         EnablePanel(_losePanel);
+        DisableGameplayPanel();
     }
 
     public void EnableWinPanel()
     {
         EnablePanel(_winPanel);
+        DisableGameplayPanel();
     }
 
     public void DisablePausePanel()
     {
         DisablePanel(_pausePanel);
+        EnableGameplayPanel();
+    }
+
+    public void DisableGameplayPanel()
+    {
+        DisablePanel(_gameplayPanel);
+    }
+
+    public void EnableGameplayPanel()
+    {
+        EnablePanel(_gameplayPanel);
     }
 
     public void EnablePausePanel()
     {
         EnablePanel(_pausePanel);
+        DisableGameplayPanel();
     }
 
     private void DisablePanel(GameObject panel)
     {
-        DisableCursor();
+        //DisableCursor();
         panel.SetActive(false);
     }
 
     private void EnablePanel(GameObject panel)
     {
-        EnableCursor();
+        //EnableCursor();
         panel.SetActive(true);
     }
 
